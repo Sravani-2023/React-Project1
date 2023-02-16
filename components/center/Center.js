@@ -7,7 +7,6 @@ import ConditionalCss from "../cssDemo/ConditionalCss";
 import CssDemo from "../cssDemo/CssDemo";
 import Demo1 from "../demo1/Demo1";
 import EmployeeCRUD from "../employeeCRUD/EmployeeCRUD";
-import EmployeList from "../employeeCRUD/EmployList";
 import EventDemo1 from "../events/EventDemo1";
 import EventDemo2 from "../events/EventDemo2";
 import EventDemo3 from "../events/EventDemo3";
@@ -22,13 +21,14 @@ import FormDemo5 from "../form/FormDemo5";
 import FormDemo6 from "../form/FormDemo6";
 import GreetDemo1 from "../greet/GreetDemo1";
 import GreetDemo2 from "../greet/GreetDemo2";
-import Api from "../HTTP/Api";
-import HTTPapi from "../HTTP/HTTPapi";
-import HTTPdemo from "../HTTP/HTTPdemo";
+import UseCallBackExample1 from "../hooks/UseCallBackExample1";
+import UseIdExample1 from "../hooks/UseIdExample1";
+import UseMemoExample1 from "../hooks/UseMemoExample1";
+import UseReducerDemo from "../hooks/UseReducerDemo";
+import HttpDemo1 from "../HTTP/HttpDemo1";
 import HttpDemo2 from "../HTTP/HttpDemo2";
 import HttpDemo3 from "../HTTP/HttpDemo3";
 import HttpDemo4 from "../HTTP/HttpDemo4";
-import Users from "../HTTP/Users";
 import LifecycleDemo1 from "../lifecycleHooks/LifecycleDemo1";
 import LifecycleDemo2 from "../lifecycleHooks/LifecycleDemo2";
 import LifecycleDemo3 from "../lifecycleHooks/LifecycleDemo3";
@@ -38,7 +38,6 @@ import ListDemo1 from "../list/ListDemo1";
 import ListDemo2 from "../list/ListDemo2";
 import ListDemo3 from "../list/ListDemo3";
 import ListDemo4 from "../list/ListDemo4";
-import ProductList from "../list/product_list";
 import UsersList from "../list/UsersList";
 import MemoDemo1 from "../memo/MemoDemo1";
 import PureCompDemo1 from "../misc/PureCompDemo1";
@@ -90,7 +89,7 @@ export default function Center() {
       {/* <GreetDemo1 msg="Good Morning" /> */}
       {/* <GreetDemo1 name="Sachin" msg="Good Morning" age={45} f1={f1} /> */}
       {/* <GreetDemo1 name="Rahul" msg="Good Evening"></GreetDemo1> */}
-      {/* <GreetDemo2 name="jay" msg="Good Afternoon" showTitle /> */}
+      {/* <GreetDemo2 name="Ajay" msg="Good Afternoon" showTitle /> */}
       {/* <Welcome></Welcome>
       <hr/>
       <Welcome>
@@ -150,14 +149,14 @@ export default function Center() {
       {/* <FormDemo4/> */}
       {/* <FormDemo5/> */}
       {/* <FormDemo6/> */}
-      {/* <HTTPapi /> */}
-      {/* <Api /> */}
-      {/* <Users /> */}
-      {/* <HTTPdemo /> */}
-      {/* <EmployeList /> */}
+      {/* <HttpDemo1 /> */}
       {/* <HttpDemo2/> */}
       {/* <HttpDemo3/> */}
       {/* <HttpDemo4/> */}
+      {/* <UseReducerDemo /> */}
+      {/* <UseMemoExample1 /> */}
+      {/* <UseCallBackExample1/> */}
+      <UseIdExample1 />
     </div>
   );
 }
